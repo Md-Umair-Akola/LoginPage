@@ -1,0 +1,24 @@
+.mycont{
+    margin-left: 140px;
+    padding: 15px;
+    background-color:#e2e2e2;
+    border: 2px solid white;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+}
+.mydiv{
+   margin-top: 110px;
+}
+.mybtn{
+    margin-left: 100px;
+}
+body{
+    background-color:#010101;
+}
+.modalbg{
+    background-color:#e2e2e2;
+}
