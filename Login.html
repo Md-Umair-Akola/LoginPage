@@ -37,6 +37,7 @@
                   class="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
+                  placeholder="email@gmail.com"
                   required
                 />
                 <div id="emailHelp" class="form-text">
@@ -51,6 +52,7 @@
                   type="password"
                   class="form-control"
                   id="exampleInputPassword1"
+                  placeholder="Your Password"
                   required
                 />
               </div>
@@ -78,11 +80,12 @@
     <div class="modal" tabindex="-1" id="exampleModal">
       <div class="modal-dialog">
         <div class="modal-content modalbg text-black">
+          <form action=""> 
           <div class="modal-header">
             <h5 class="modal-title">Signup Here</h5>
           </div>
           <div class="modal-body">
-            <form>
+            
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label"
                   >Email address</label
@@ -120,7 +123,7 @@
                   required
                 />
               </div>
-            </form>
+            
           </div>
           <div class="modal-footer">
             <button
@@ -130,8 +133,9 @@
             >
               Close
             </button>
-            <button type="button" class="btn btn-primary">Signup</button>
+            <button type="submit" class="btn btn-primary">Signup</button>
           </div>
+        </form>
         </div>
       </div>
     </div>
